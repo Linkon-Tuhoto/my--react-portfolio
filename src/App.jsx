@@ -31,13 +31,15 @@ function App() {
     </>
   )
 }*/
-import Header from './header.jsx';
+import Header from './components/header.jsx';
+import Hero from './components/hero.jsx';
 import Homepage from './homepage.jsx';
 import Home from './home.jsx';
 function App(){
   return(
     <>
     <Header></Header>
+    <Hero></Hero>
     </>
   );
 }
