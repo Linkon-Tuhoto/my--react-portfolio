@@ -9,7 +9,7 @@ function Hero() {
     <div className='text-center p-8 md:p-16'>
         <h3 className="text-gray-700 text-[3.2rem] font-normal leading-relaxed text-lg ">Hello 👋,</h3>
         <h1 className="text-purple-600 text-5xl mt-2 text-[3.2rem] md:text-[4.4rem] font-bold leading-13">I'm Linkon Tuhoto</h1>
-        <h3 className="text-purple-700 text-3xl md:text-4xl mt-1 mb-6 leading-snug font-bold">And I am a <span className='text-purple-400'>Frontend Developer</span></h3>
+        <h3 className="text-purple-700 text-3xl md:text-4xl mt-1 mb-6 leading-snug font-bold">And I am a {" "} <span className="text-purple-400 inline-block overflow-hidden whitespace-nowrap border-r-4 border-purple-500 pr-2 animate-typing animate-cursor">Frontend Developer</span></h3>
         <p className="text-gray-700 mt-4 text-base md:text-lg font-normal leading-relaxed mx-auto max-w-[800px]">I build responsive and user-friendly websites that bring ideas to life.  
            Passionate about clean code, modern design, and creating seamless user experiences.
         </p>
@@ -27,8 +27,10 @@ function Hero() {
         <img src={codie} className="mx-auto rounded-2xl shadow-lg animate-float w-full h-full object-cover" alt="person" />
     </div>
 
-    </div>
-  )
+    <div className="animate-[spin_2s_linear_infinite] text-3xl">Test</div>
+
+    </div> 
+    );
 }
 
 export default Hero
