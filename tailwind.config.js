@@ -46,28 +46,3 @@ export default {
   plugins: [],
 }*/
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {
-      keyframes: {
-        typing: {
-          from: { width: "0" },
-          to: { width: "100%" },
-        },
-        cursor: {
-          "0%, 100%": { borderColor: "transparent" },
-          "50%": { borderColor: "#a855f7" },
-        },
-      },
-      animation: {
-        typing: "typing 3s steps(20) forwards",
-        cursor: "cursor 1s step-end infinite",
-      },
-    },
-  },
-  plugins: [],
-}

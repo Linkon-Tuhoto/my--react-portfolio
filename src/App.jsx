@@ -33,6 +33,7 @@ function App() {
 }*/
 import Header from './components/header.jsx';
 import Hero from './components/hero.jsx';
+import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Homepage from './homepage.jsx';
 import Home from './home.jsx';
 function App(){
@@ -40,6 +41,11 @@ function App(){
     <>
     <Header></Header>
     <Hero></Hero>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Hore />} />
+      </Routes>
+    </Router>
     </>
   );
 }
