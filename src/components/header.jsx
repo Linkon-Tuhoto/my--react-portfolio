@@ -3,7 +3,7 @@ import logoImage from '../assets/codegirl.jpg';
 function Header(){
     const [open, Setopen] = useState(false);
     return(
-        <div className="relative">
+        <div className="fixed w-full">
         <div className="flex items-center justify-between bg-slate-50 shadow-2xl">
             <div className="text-blue-800 m-5 grid grid-flow-col gap-5">
                 <img src={logoImage} alt="Person" className="w-10 h-10 md:w-20 md:h-20 rounded-full"></img>

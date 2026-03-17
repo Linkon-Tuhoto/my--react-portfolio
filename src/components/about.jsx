@@ -3,9 +3,9 @@ import aboutimg from '../assets/codegirl.jpg';
 
 function About() {
   return (
-    <div className='grid md:grid-cols-2 grid-cols-1 gap-4'>
-        <div className=''>
-            <img src={aboutimg} alt="person" />
+    <div className='grid md:grid-cols-2 grid-cols-1 gap-1 pr-[10%] pl-[10%]'>
+        <div className='w-[20rem] h-[20rem] mx-auto md:mx-0'>
+            <img src={aboutimg} className='w-full h-full object-cover mx-auto' alt="person" />
         </div>
         <div>
             <h2>About Me</h2>
