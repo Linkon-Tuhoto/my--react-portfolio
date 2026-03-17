@@ -1,5 +1,5 @@
 // tailwind.config.js
-/*module.exports = {
+module.exports = {
   theme: {
     extend: {
       keyframes: {
@@ -44,5 +44,5 @@ export default {
     },
   },
   plugins: [],
-}*/
-/** @type {import('tailwindcss').Config} */
+}
+/* @type {import('tailwindcss').Config} */

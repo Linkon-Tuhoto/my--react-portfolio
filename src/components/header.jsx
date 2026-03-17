@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import logoImage from '../assets/codegirl.jpg';
-import { Link } from "react-router-dom";
 function Header(){
     const [open, Setopen] = useState(false);
     return(
