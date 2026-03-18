@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok} from "@fortawesome/free-brands-svg-icons";
 import codie from '../assets/codegirl.jpg';
 
 

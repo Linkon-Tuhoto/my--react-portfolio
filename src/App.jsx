@@ -37,12 +37,14 @@ import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Homepage from './homepage.jsx';
 import Home from './home.jsx';
 import About from './components/about.jsx';
+import Services from './components/services.jsx';
 function App(){
   return(
     <>
     <Header></Header>
     <Hero></Hero>
     <About></About>
+    <Services></Services>
     </>
   );
 }
