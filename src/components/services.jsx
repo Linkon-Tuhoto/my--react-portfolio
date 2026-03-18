@@ -23,7 +23,7 @@ function Services() {
             <p className='text-gray-600'>
                 I design clean and user-friendly interfaces focused on delivering intuitive and engaging user experiences.
             </p>
-            <button>Read More</button>
+            <button className='bg-purple-500 inline-block px-5 py-2 text-white rounded-full font-medium text-sm mt-4 hover:bg-purple-600 transition-all duration-300'>Read More</button>
         </div>
 
         <div className='border-1 text-center p-5 border-gray-200 shadow-md hover:shadow-purple-200 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 bg-white/80 backdrop-blur-md'>
@@ -32,7 +32,7 @@ function Services() {
             <p className='text-gray-600'>
                 I provide ongoing support and updates to keep websites secure, functional, and up to date.
             </p>
-            <button>Read More</button>
+            <button className='bg-purple-500 inline-block px-5 py-2 text-white rounded-full font-medium text-sm mt-4 hover:bg-purple-600 transition-all duration-300'>Read More</button>
         </div>
     </div>
   )
