@@ -8,13 +8,13 @@ function Services() {
   return (
     <div className='bg-gray-50'>
         <h2 className='text-center font-bold text-4xl p-4'>My Services</h2>
-        <div className='border-4 text-center p-5 border-gray-200 shadow-md hover:shadow-purple-200 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 bg-white/80 backdrop-blur-md'>
+        <div className='border-1 text-center p-5 border-gray-200 shadow-md hover:shadow-purple-200 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 bg-white/80 backdrop-blur-md'>
             <FontAwesomeIcon icon={faGithub} className='mb-4 text-purple-500 text-4xl' />
             <h3 className='font-medium text-lg mb-2'>Web Development</h3>
             <p className='text-gray-600'>I build responsive and high-performance websites using modern technologies, 
                 ensuring seamless functionality across all devices.
             </p>
-            <button>Read More</button>
+            <button className='bg-purple-500 inline-block px-5 py-2 text-white rounded-full font-medium text-sm mt-4'>Read More</button>
         </div>
 
         <div>
