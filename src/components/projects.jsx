@@ -14,7 +14,7 @@ function Projects() {
                     <span className='bg-white text-purple-600 border border-purple-200 px-3 py-1 text-xs rounded-full'>CSS</span>
                     <span className='bg-white text-purple-600 border border-purple-200 px-3 py-1 text-xs rounded-full'>JAVASCRIPT</span>
             </div>
-            <button className='inline-block bg-purple-500 text-white hover:bg-purple-600 transition-all duration-300 px-5 py-2 font-medium text-sm'><a href="">View Project</a></button>
+            <button className='inline-block bg-purple-500 text-white hover:bg-purple-600 transition-all duration-300 px-5 py-2 font-medium text-sm'><a href="https://github.com/Linkon-Tuhoto/School-system-website.git">View Project</a></button>
         </div>
 
         <div className='bg-purple-50 p-6 rounded-2xl border border-purple-200 shadow-sm hover:shadow-[0_10px_30px_rgba(168, 85, 247,0.9)]'>
@@ -26,7 +26,7 @@ function Projects() {
                     <span className='bg-white text-purple-600 border border-purple-200 px-3 py-1 text-xs rounded-full'>CSS</span>
                     <span className='bg-white text-purple-600 border border-purple-200 px-3 py-1 text-xs rounded-full'>JAVASCRIPT</span>
             </div>
-            <button className='inline-block bg-purple-500 text-white hover:bg-purple-600 transition-all duration-300 px-5 py-2 font-medium text-sm'><a href="">View Project</a></button>
+            <button className='inline-block bg-purple-500 text-white hover:bg-purple-600 transition-all duration-300 px-5 py-2 font-medium text-sm'><a href="https://github.com/Linkon-Tuhoto/Modern-E-commerce-website.git">View Project</a></button>
         </div>
 
         <div className='bg-purple-50 p-6 rounded-2xl border border-purple-200 shadow-sm hover:shadow-[0_10px_30px_rgba(168, 85, 247,0.9)]'>
@@ -37,7 +37,7 @@ function Projects() {
                     <span className='bg-white text-purple-600 border border-purple-200 px-3 py-1 text-xs rounded-full'>HTML</span>
                     <span className='bg-white text-purple-600 border border-purple-200 px-3 py-1 text-xs rounded-full'>CSS</span>
             </div>
-            <button className='inline-block bg-purple-500 text-white hover:bg-purple-600 transition-all duration-300 px-5 py-2 font-medium text-sm'><a href="">View Project</a></button>
+            <button className='inline-block bg-purple-500 text-white hover:bg-purple-600 transition-all duration-300 px-5 py-2 font-medium text-sm'><a href="https://github.com/Linkon-Tuhoto/hotel-website.git">View Project</a></button>
         </div>
     </div>
     </div>
