@@ -2,7 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>F</div>
+    <div>
+        <p>&copy; {new Date().getFullYear()} Linkon Tuhoto. All rights reserved</p>
+    </div>
   )
 }
 
