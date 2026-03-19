@@ -40,6 +40,7 @@ import About from './components/about.jsx';
 import Services from './components/services.jsx';
 import Projects from './components/projects.jsx';
 import Contact from './components/contact.jsx';
+import Footer from './components/footer.jsx';
 function App(){
   return(
     <>
@@ -49,6 +50,7 @@ function App(){
     <Services></Services>
     <Projects></Projects>
     <Contact></Contact>
+    <Footer></Footer>
     </>
   );
 }
