@@ -38,6 +38,7 @@ import Homepage from './homepage.jsx';
 import Home from './home.jsx';
 import About from './components/about.jsx';
 import Services from './components/services.jsx';
+import Projects from './components/projects.jsx';
 function App(){
   return(
     <>
@@ -45,6 +46,7 @@ function App(){
     <Hero></Hero>
     <About></About>
     <Services></Services>
+    <Projects></Projects>
     </>
   );
 }

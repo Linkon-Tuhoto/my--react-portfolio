@@ -7,7 +7,7 @@ import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok} from "@fortawes
 function Services() {
   return (
     <div className='bg-gray-50'>
-        <h2 className='text-center font-bold text-4xl p-4'>My Services</h2>
+        <h2 className='text-center font-bold text-4xl p-4 pt-8'>My Services</h2>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10 p-20 z-0'>
         <div className='border-1 text-center p-10 border-gray-200 shadow-md hover:shadow-purple-200 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 bg-white/80 backdrop-blur-md'>
             <FontAwesomeIcon icon={faGithub} className='mb-4 text-purple-500 text-4xl' />
