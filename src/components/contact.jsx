@@ -2,6 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
+    <section id="contact" className='scroll-mt-26'>
     <div className='text-center bg-teal-50 py-16 px-6 sm:px-10 md:px-20'>
         <div className='max-w-3xl mx-auto bg-white/90 backdrop-blur-md shadow-lg rounded-2xl p-8'>
         <h2 className='text-3xl md:text-4xl font-bold text-gray-950 text-center mb-6'>Contact Me</h2>
@@ -21,6 +22,7 @@ function Contact() {
         </div>
         </div>
     </div>
+    </section>
   )
 }
 

@@ -1,10 +1,11 @@
 import React from 'react';
 import schoolimage from '../assets/schoolsystem.jpeg';
 import ecommerce from '../assets/e-commerce.jpeg';
-import school from '../assets/schoolsystem.jpeg';
+import hotel from '../assets/hotel.jpeg';
 
 function Projects() {
   return (
+    <section id="project" className='scroll-mt-26'>
     <div className='bg-white'>
         <h2 className='text-center text-gray-950 font-bold text text-4xl'>My Projects</h2>
     <div className='grid grid-cols-1 md:grid-cols-3 gap-10 p-15'>
@@ -33,7 +34,7 @@ function Projects() {
         </div>
 
         <div className='bg-purple-50 p-6 rounded-2xl border border-purple-200 shadow-sm hover:shadow-[0_10px_30px_rgba(168, 85, 247,0.9)]'>
-            <img src={school} alt="picture" />
+            <img src={hotel} alt="picture" />
             <h3 className='text-gray-900 font-semibold text-xl mb-1'>Hotel Booking Website</h3>
             <p className='text-gray-700 text-sm mb-4'>A hotel website featuring the meals offered and the details of the hotel based on its locality. It is elegant user interface designed to enhance user experience</p>
             <div className='flex flex-wrap gap-2 mb-4'>
@@ -44,6 +45,7 @@ function Projects() {
         </div>
     </div>
     </div>
+    </section>
   )
 }
 

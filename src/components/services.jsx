@@ -6,6 +6,7 @@ import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok} from "@fortawes
 
 function Services() {
   return (
+    <section id="services" className='scroll-mt-26'>
     <div className='bg-gray-50'>
         <h2 className='text-center font-bold text-3xl md:text-4xl p-4 pt-8'>My Services</h2>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10 p-20'>
@@ -37,6 +38,7 @@ function Services() {
         </div>
         </div>
     </div>
+    </section>
   )
 }
 
