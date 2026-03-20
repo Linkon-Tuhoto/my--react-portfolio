@@ -4,9 +4,24 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 function Header(){
     const [open, setopen] = useState(false);
+    const [scrolled, setscroll] = useState(false);
+    useEffect(() => {
+        const handlescroll = () => {
+            if(window.scrollY > 100){
+                setscroll(true);
+            }
+            else{
+                setscroll(false)
+            }
+        };
+        window.addEventListener('scroll', handlescroll);
+        return () => window.removeEventListener('scroll', handlescroll);
+    }, []);
     return(
+        <section>
         <div className="fixed w-full top-0 z-100 scroll-smooth">
-        <div className="flex items-center justify-between bg-slate-50 shadow-2xl">
+        <div id="navbar" className={`transition-all duration-300 ${ scrolled ? "bg-white" : "bg-purple-200/70"}`}>
+        <div className="flex items-center justify-between ">
             <div className="text-blue-800 m-5 grid grid-flow-col gap-5">
                 <img src={logoImage} alt="Person" className="w-10 h-10 md:w-20 md:h-20 rounded-full"></img>
                 <h1 className="text-2xl md:text-3xl">Ticon</h1>
@@ -22,6 +37,7 @@ function Header(){
 
                 <button className="text-2xl mr-10 md:hidden mb-4 cursor-pointer" onClick={() => setopen(!open)}>{!open ? <FontAwesomeIcon icon={faBars}/> : <FontAwesomeIcon icon={faTimes} />}</button>
             </div>
+        </div>
 
         </div>
 
@@ -34,6 +50,7 @@ function Header(){
                     <li><a href="#contact" className="text-gray-800 hover:text-purple-500">Contact</a></li>
                 </ul>)}
         </div>
+        </section>
         
     );
 }

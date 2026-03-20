@@ -7,7 +7,7 @@ function Projects() {
   return (
     <section id="project" className='scroll-mt-26'>
     <div className='bg-white'>
-        <h2 className='text-center text-gray-950 font-bold text text-4xl'>My Projects</h2>
+        <h2 className='text-center text-gray-950 font-bold text-3xl sm:4xl md:5xl'>My Projects</h2>
     <div className='grid grid-cols-1 md:grid-cols-3 gap-10 p-15'>
         <div className='bg-purple-50 p-6 rounded-2xl border border-purple-200 shadow-sm hover:shadow-[0_10px_30px_rgba(168, 85, 247,0.9)]'>
             <img src={schoolimage} alt="picture" />
