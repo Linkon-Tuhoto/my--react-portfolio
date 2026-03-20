@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok} from "@fortawesome/free-brands-svg-icons";
-import codie from '../assets/codegirl.jpg';
+import codie from '../assets/mine.jpg';
 
 
 function Hero() {
@@ -26,7 +26,7 @@ function Hero() {
     </div>
 
     <div className="w-[16rem] h-[16rem] mx-auto md:mx-0">
-        <img src={codie} className="mx-auto rounded-2xl shadow-lg animate-float w-full h-full object-cover" alt="person" />
+        <img src={codie} className="mx-auto rounded-2xl shadow-lg animate-float w-full h-full object-cover" alt="person"  />
     </div>
 
     </div> 

@@ -1,10 +1,10 @@
 import React from 'react';
-import aboutimg from '../assets/codegirl.jpg';
+import aboutimg from '../assets/me2.jpg';
 function About() {
   return (
-    <section id="about" className='scroll-mt-26'>
-    <div className='grid md:grid-cols-2 grid-cols-1 gap-3 p-10 px-6 sm:px-10 md:px-20 lg:px-32 py-10 sm:py-14 md:py20 items-center bg-indigo-50'>
-      <h2 className='text-center text-gray-950 font-bold text-3xl sm:4xl md:5xl'>About me</h2>
+    <section id="about" className='scroll-mt-26  bg-indigo-50'>
+      <h2 className='text-center text-gray-950 font-bold text-3xl sm:4xl md:5xl pt-4'>About me</h2>
+    <div className='grid md:grid-cols-2 grid-cols-1 gap-3 p-10 px-6 sm:px-10 md:px-20 lg:px-32 py-10 sm:py-14 md:py20 items-center '>
         <div className='w-64 h-64 sm:w-72 sm:h-72 lg:w-96 lg:h-96 mx-auto md:mx-0 transition-transform duration-500 hover:scale-106 shadow-lg overflow-hidden'>
             <img src={aboutimg} className='w-full h-full object-cover mx-auto rounded-2xl' alt="person" />
         </div>
