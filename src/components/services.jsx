@@ -10,7 +10,7 @@ function Services() {
     <section id="services" className='scroll-mt-26'>
     <div className='bg-gray-50'>
         <h2 className='text-center font-bold text-3xl md:text-4xl sm:text-5xl p-4 pt-8'>My Services</h2>
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-10 p-20'>
+        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-10 p-5 md:p-20'>
         <div className='group md:relative border text-center p-10 border-gray-200 origin-bottom shadow-md hover:shadow-purple-200 hover:shadow-lg hover:scale-105 transition-all duration-300 bg-white/80 backdrop-blur-md'>
         {/*<div className='absolute inset-0 bg-purple-500 opacity-0 group-hover:opacity-100 transition-all duration-500'></div>*/}
             <FontAwesomeIcon icon={faGithub} className='mb-4 text-purple-500 text-4xl md:text-9xl' />

@@ -20,7 +20,7 @@ function Header(){
     return(
         <section>
         <div className="fixed w-full top-0 z-100 scroll-smooth">
-        <div id="navbar" className={`transition-all duration-300 ${ scrolled ? "bg-white" : "bg-purple-200/70"}`}>
+        <div id="navbar" className={`transition-all duration-300 ${ scrolled ? "bg-white shadow-lg" : "bg-purple-200/70"}`}>
         <div className="flex items-center justify-between ">
             <div className="text-blue-800 m-5 grid grid-flow-col gap-5">
                 <img src={logoImage} alt="Person" className="w-10 h-10 md:w-20 md:h-20 rounded-full"></img>

@@ -7,7 +7,7 @@ import codie from '../assets/mine.jpg';
 function Hero() {
   return (
     <section id="home" className='scroll-mt-26'>
-    <div className='grid grid-cols-1 md:flex md:justify-center md:items-center scroll-smooth pt-[7%] md:pt-[3%] '>
+    <div className='grid grid-cols-1 md:flex md:justify-center md:items-center scroll-smooth pt-[10%] md:pt-[3%] '>
     <div className='text-center p-8 md:p-16'>
         <h3 className="text-gray-700 text-[3.2rem] font-normal leading-relaxed text-lg ">Hello 👋,</h3>
         <h1 className="text-purple-600 text-5xl mt-2 text-[3.2rem] md:text-[4.4rem] font-bold leading-13">I'm Linkon Tuhoto</h1>
