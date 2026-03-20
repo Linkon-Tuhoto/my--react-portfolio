@@ -1,6 +1,5 @@
 import React from 'react';
 import aboutimg from '../assets/codegirl.jpg';
-
 function About() {
   return (
     <section id="about" className='scroll-mt-26'>
