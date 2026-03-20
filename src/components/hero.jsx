@@ -16,7 +16,7 @@ function Hero() {
            Passionate about clean code, modern design, and creating seamless user experiences.
         </p>
         <div className="text-purple-600 hover:text-purple-700 text-2xl flex justify-center mt-6">
-            <a href="#" alt="icon" target="_blank"><FontAwesomeIcon icon={faGithub} className="text-2xl mx-2" /></a>
+            <a href="https://github.com/Linkon-Tuhoto" alt="icon" target="_blank"><FontAwesomeIcon icon={faGithub} className="text-2xl mx-2" /></a>
             <a href="#" alt="icon" target="_blank"><FontAwesomeIcon icon={faWhatsapp} className="text-2xl mx-2"  /></a>
             <a href="#" alt="icon" target="_blank"><FontAwesomeIcon icon={faFacebook} className="text-2xl mx-2"  /></a>
             <a href="#" alt="icon" target="_blank"><FontAwesomeIcon icon={faTiktok} className="text-2xl mx-2"  /></a>

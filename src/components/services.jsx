@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 //import {faLaptop, faPalette, faWrench} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok} from "@fortawesome/free-brands-svg-icons";
+import { faCode, faLayerGroup, faTools } from '@fortawesome/free-solid-svg-icons';
 
 function Services() {
     const[Show, setShow] = useState(false);
@@ -13,7 +14,7 @@ function Services() {
         <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-10 p-5 md:p-20'>
         <div className='group md:relative border text-center p-10 border-gray-200 origin-bottom shadow-md hover:shadow-purple-200 hover:shadow-lg hover:scale-105 transition-all duration-300 bg-white/80 backdrop-blur-md'>
         {/*<div className='absolute inset-0 bg-purple-500 opacity-0 group-hover:opacity-100 transition-all duration-500'></div>*/}
-            <FontAwesomeIcon icon={faGithub} className='mb-4 text-purple-500 text-4xl md:text-9xl' />
+            <FontAwesomeIcon icon={faCode} className='mb-4 text-purple-500 text-4xl md:text-9xl' />
             <h3 className='font-medium text-lg mb-2 md:text-4xl'>Web Development</h3>
             <div className='md:absolute md:w-full md:bottom-0 md:left-0 md:w-full md:h-0 md:overflow-hidden transition-all duration-500 md:bg-gradient-to-t md:from-purple-900/80 md:via-purple-700/50 md:to-transparent md:absolute md:group-hover:h-[100%] md:flex md:flex-col jmd:ustify-center md:items-center md:text-center md:mt-4'>
             <p className='text-gray-600 md:text-2xl'>I build responsive and high-performance websites using modern technologies, 
@@ -24,7 +25,7 @@ function Services() {
         </div>
 
         <div className='group md:relative border text-center p-10 border-gray-200 origin-bottom shadow-md hover:shadow-purple-200 hover:shadow-lg hover:scale-105 transition-all duration-300 bg-white/80 backdrop-blur-md'>
-            <FontAwesomeIcon icon={faWhatsapp} className='mb-4 text-purple-500 text-4xl md:text-9xl' />
+            <FontAwesomeIcon icon={faLayerGroup} className='mb-4 text-purple-500 text-4xl md:text-9xl' />
             <h3 className='font-medium text-lg mb-2 md:text-4xl'>UI/UX Design</h3>
             <div className='md:absolute md:w-full md:bottom-0 md:left-0 md:w-full md:h-0 md:overflow-hidden transition-all duration-500 md:bg-gradient-to-t md:from-purple-900/80 md:via-purple-700/50 md:to-transparent md:absolute md:group-hover:h-[100%] md:flex md:flex-col jmd:ustify-center md:items-center md:text-center md:mt-4'>
             <p className='text-gray-600 md:text-2xl'>
@@ -35,7 +36,7 @@ function Services() {
         </div>
 
         <div className='group md:relative border text-center p-10 border-gray-200 origin-bottom shadow-md hover:shadow-purple-200 hover:shadow-lg hover:scale-105 transition-all duration-300 bg-white/80 backdrop-blur-md'>
-            <FontAwesomeIcon icon={faTiktok} className='mb-4 text-purple-500 text-4xl md:text-9xl' />
+            <FontAwesomeIcon icon={faTools} className='mb-4 text-purple-500 text-4xl md:text-9xl' />
             <h3 className='font-medium text-lg mb-2 md:text-4xl'>Maintenance & Support</h3>
             <div className='md:absolute md:w-full md:bottom-0 md:left-0 md:w-full md:h-0 md:overflow-hidden transition-all duration-500 md:bg-gradient-to-t md:from-purple-900/80 md:via-purple-700/50 md:to-transparent md:absolute md:group-hover:h-[100%] md:flex md:flex-col jmd:ustify-center md:items-center md:text-center md:mt-4'>
             <p className='text-gray-600 md:text-2xl'>

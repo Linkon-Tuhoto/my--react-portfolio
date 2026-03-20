@@ -16,7 +16,7 @@ function Contact() {
                 <input type="tel" placeholder='Phone Number' required className='w-full max-w-3xl p-6 size-6.5 bg-indigo-50  m-[.7rem 0] rounded-[.8rem] border border-indigo-100 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none transition backdrop-blur-sm text-gray-900 placeholder-gray-400' />
                 <input type="text" placeholder='Email Subject' className='w-full max-w-3xl p-6 size-6.5 bg-indigo-50 m-[.7rem 0] rounded-[.8rem] border border-indigo-100 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none transition backdrop-blur-sm text-gray-900 placeholder-gray-400' />
             </div>
-            <textarea name="" id="" rows="10" cols="30" placeholder="Your Message" className='w-[100%] p-6 bg-indigo-50  m-[.7rem 0] mt-3 rounded-[.8rem] border border-indigo-100 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none transition backdrop-blur-sm text-gray-900 placeholder-gray-400'></textarea>
+            <textarea name="" id="" rows="6" cols="30" placeholder="Your Message" className='w-[100%] p-5 md:p-6 bg-indigo-50  m-[.7rem 0] mt-3 rounded-[.8rem] border border-indigo-100 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none transition backdrop-blur-sm text-gray-900 placeholder-gray-400'></textarea>
             <button type="submit" className='block mx-auto bg-purple-500 text-white px-6 py-3 rounded-full font-medium hover:bg-purple-600 hover:shadow-lg transition-all duration-300'>Submit</button>
         </form>
         </div>
