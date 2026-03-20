@@ -42,7 +42,7 @@ function Header(){
         </div>
 
             {open && (
-            <ul className="grid grid-flow-row justify-center gap-10 md:hidden bg-white/80 backdrop-blur-md shadow-lg absolute top-full w-1/2 right-0 rounded-l-2xl shadow p-10 pb-[100%] mb-0 font-bold ">
+            <ul className="grid grid-flow-row justify-center gap-10 md:hidden bg-white/80 backdrop-blur-md shadow-lg absolute top-full w-10/12 right-0 rounded-l-2xl shadow p-10 pb-[100%] mb-0 font-bold ">
                     <li><a href="#home" className="text-gray-800 hover:text-purple-500 transition duration-300 ">Home</a></li>
                     <li><a href="#about" className="text-gray-800  hover:text-purple-500">About</a></li>
                     <li><a href="#services" className="text-gray-800 hover:text-purple-500">Services</a></li>
