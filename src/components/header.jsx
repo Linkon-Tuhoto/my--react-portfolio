@@ -5,6 +5,7 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 function Header(){
     const [open, setopen] = useState(false);
     const [scrolled, setscroll] = useState(false);
+    const [menuclosed, setmenuclosed] = useState(false);
     useEffect(() => {
         const handlescroll = () => {
             if(window.scrollY > 100){
@@ -43,11 +44,11 @@ function Header(){
 
             {open && (
             <ul className="grid grid-flow-row justify-center gap-10 md:hidden bg-white/80 backdrop-blur-md shadow-lg absolute top-full w-8/12 right-0 rounded-l-2xl shadow p-10 pb-[100%] mb-0 font-bold  text-2xl">
-                    <li><a href="#home" className="text-gray-800 hover:text-purple-500 transition duration-300 ">Home</a></li>
-                    <li><a href="#about" className="text-gray-800  hover:text-purple-500">About</a></li>
-                    <li><a href="#services" className="text-gray-800 hover:text-purple-500">Services</a></li>
-                    <li><a href="#project" className="text-gray-800 hover:text-purple-500">Projects</a></li>
-                    <li><a href="#contact" className="text-gray-800 hover:text-purple-500">Contact</a></li>
+                    <li><a href="#home" className="text-gray-800 hover:text-purple-500 transition duration-300 " onClick={() => setopen(false)}>Home</a></li>
+                    <li><a href="#about" className="text-gray-800  hover:text-purple-500" onClick={() => setopen(false)}>About</a></li>
+                    <li><a href="#services" className="text-gray-800 hover:text-purple-500" onClick={() => setopen(false)}>Services</a></li>
+                    <li><a href="#project" className="text-gray-800 hover:text-purple-500" onClick={() => setopen(false)}>Projects</a></li>
+                    <li><a href="#contact" className="text-gray-800 hover:text-purple-500" onClick={() => setopen(false)}>Contact</a></li>
                 </ul>)}
         </div>
         </section>
