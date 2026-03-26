@@ -22,10 +22,10 @@ function Hero() {
             <a href="#" alt="icon" target="_blank"><FontAwesomeIcon icon={faTiktok} className="text-2xl mx-2"  /></a>
             <a href="#" alt="icon" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="text-2xl mx-2"  /></a>
         </div>
-        <button className="bg-purple-600 hover:bg-purple-700 text-white font-medium px-6 py-3 rounded-lg transition-colors mt-6 inline-block text-2xl "><a href="#">Download CV</a></button>
+        <button className="bg-purple-600 hover:bg-purple-700 text-white font-medium px-5 py-2 rounded-lg transition-colors mt-6 inline-block text-2xl "><a href="#">Download CV</a></button>
     </div>
 
-    <div className="w-[16rem] h-[16rem] mx-auto md:mx-0">
+    <div className="w-[16rem] h-[16rem] mx-auto md:mx-0 mb-3">
         <img src={codie} className="mx-auto rounded-full shadow-lg animate-float w-full h-full object-cover shadow-[0 0 40px rgba(124,58,237,0.25)] border-3 border-[#7C3AED]" alt="person"  />
     </div>
 
