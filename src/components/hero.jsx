@@ -9,10 +9,10 @@ function Hero() {
     <section id="home" className='scroll-mt-26'>
     <div className='grid grid-cols-1 md:flex md:justify-center md:items-center scroll-smooth pt-[10%] md:pt-[3%] '>
     <div className='text-center p-8 md:p-16 leading-relaxed'>
-        <h3 className="text-[#9CA3AF] text-[3.2rem] font-normal leading-relaxed text-[22px] ">Hello 👋,</h3>
-        <h1 className="text-[#7C3AED] text-5xl mt-2 text-[3.2rem] md:text-[4rem] font-extrabold leading-13">I'm Linkon Tuhoto</h1>
-        <h3 className="text-[#6B7280] text-3xl md:text-3xl mt-1 mb-6 leading-snug font-normal">And I am a <span className='text-[ #7C3AED] font-semibold'>Frontend Developer</span></h3>
-        <p className="text-gray-700 mt-4 text-base md:text-lg font-normal leading-relaxed mx-auto max-w-[800px]">I build responsive and user-friendly websites that bring ideas to life.  
+        <h3 className="text-[#9CA3AF] text-lg md:text-xl font-medium leading-relaxed ">Hello 👋,</h3>
+        <h1 className="text-[#7C3AED] text-4xl mt-2 md:text-6xl font-bold leading-tight">I'm Linkon Tuhoto</h1>
+        <h3 className="text-[#6B7280] text-xl md:text-2xl font-semibold mt-1 mb-6 leading-snug">And I am a <span className='text-[ #7C3AED] font-semibold'>Frontend Developer</span></h3>
+        <p className="text-gray-700 mt-4 text-base md:text-lg font-normal leading-relaxed mx-auto max-w-xl">I build responsive and user-friendly websites that bring ideas to life.  
            Passionate about clean code, modern design, and creating seamless user experiences.
         </p>
         <div className="text-purple-600 hover:text-purple-700 text-2xl flex justify-center mt-6">
@@ -22,7 +22,7 @@ function Hero() {
             <a href="#" alt="icon" target="_blank"><FontAwesomeIcon icon={faTiktok} className="text-2xl mx-2"  /></a>
             <a href="#" alt="icon" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="text-2xl mx-2"  /></a>
         </div>
-        <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-3 rounded-[9999px] transition-colors mt-6 inline-block text-2xl"><a href="#">Download CV</a></button>
+        <button className="bg-purple-600 hover:bg-purple-700 text-white font-medium px-6 py-3 rounded-lg transition-colors mt-6 inline-block text-2xl "><a href="#">Download CV</a></button>
     </div>
 
     <div className="w-[16rem] h-[16rem] mx-auto md:mx-0">

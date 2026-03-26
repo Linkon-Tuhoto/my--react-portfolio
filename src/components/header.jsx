@@ -25,10 +25,10 @@ function Header(){
         <div className="flex items-center justify-between ">
             <div className="text-blue-800 m-5 grid grid-flow-col gap-5 ">
                 <img src={logoImage} alt="Person" className="w-10 h-10 md:w-20 md:h-20 rounded-full"></img>
-                <h1 className="text-2xl md:text-3xl flex justify-center items-center inset-0 text-[#6B21A8] font-bold">Ticon</h1>
+                <h1 className="text-xl md:text-2xl flex justify-center items-center inset-0 text-[#6B21A8] font-bold">Ticon</h1>
             </div>
             <div className="">
-                <ul className="md:grid md:grid-flow-col md:justify-center md:gap-10 md:mr-20 hidden m-5 font-bold text-lg">
+                <ul className="md:grid md:grid-flow-col md:justify-center md:gap-10 md:mr-20 hidden m-5 text-base font-medium transition">
                     <li><a href="#home" className="text-gray-800 hover:text-purple-500">Home</a></li>
                     <li><a href="#about" className="text-gray-800 hover:text-purple-500">About</a></li>
                     <li><a href="#services" className="text-gray-800 hover:text-purple-500">Services</a></li>
@@ -43,7 +43,7 @@ function Header(){
         </div>
 
             {open && (
-            <ul className="grid grid-flow-row justify-center gap-10 md:hidden bg-white/80 backdrop-blur-md shadow-lg absolute top-full w-8/12 right-0 rounded-l-2xl shadow p-10 pb-[100%] mb-0 font-bold  text-2xl">
+            <ul className="grid grid-flow-row justify-center gap-10 md:hidden bg-white/80 backdrop-blur-md shadow-lg absolute top-full w-8/12 right-0 rounded-l-2xl shadow p-10 pb-[100%] mb-0 font-bold  text-sm">
                     <li><a href="#home" className="text-gray-800 hover:text-purple-500 transition duration-300 " onClick={() => setopen(false)}>Home</a></li>
                     <li><a href="#about" className="text-gray-800  hover:text-purple-500" onClick={() => setopen(false)}>About</a></li>
                     <li><a href="#services" className="text-gray-800 hover:text-purple-500" onClick={() => setopen(false)}>Services</a></li>

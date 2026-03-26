@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import {faLaptop, faPalette, faWrench} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok} from "@fortawesome/free-brands-svg-icons";
 import { faCode, faLayerGroup, faTools } from '@fortawesome/free-solid-svg-icons';
