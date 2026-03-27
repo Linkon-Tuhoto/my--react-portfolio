@@ -3,8 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok} from "@fortawesome/free-brands-svg-icons";
 import { faCode, faLayerGroup, faTools } from '@fortawesome/free-solid-svg-icons';
 
-function Services() {
+function Services(props) {
     const[Show, setShow] = useState(false);
+    const[message, setMessage] = useState(false);
   return (
     <section id="services" className='scroll-mt-26'>
     <div className='bg-gray-50'>
@@ -13,12 +14,26 @@ function Services() {
         <div className='group md:relative border text-center p-10 border-gray-200 origin-bottom shadow-md hover:shadow-purple-200 hover:shadow-lg hover:scale-105 transition-all duration-300 bg-white/80 backdrop-blur-md'>
         {/*<div className='absolute inset-0 bg-purple-500 opacity-0 group-hover:opacity-100 transition-all duration-500'></div>*/}
             <FontAwesomeIcon icon={faCode} className='mb-4 text-purple-500 text-4xl md:text-9xl' />
-            <h3 className='font-semibold text-xl mb-2 md:text-4xl'>Web Development</h3>
+            <h3 className='font-semibold text-xl mb-2 md:text-4xl'>Web Development </h3>
             <div className='md:absolute md:w-full md:bottom-0 md:left-0 md:h-0 md:overflow-hidden transition-all duration-500 md:bg-gradient-to-t md:from-purple-900/80 md:via-purple-700/50 md:to-transparent md:group-hover:h-[100%] md:flex md:flex-col jmd:ustify-center md:items-center md:text-center md:mt-4'>
             <p className='text-gray-600 text-sm md:text-2xl'>I build responsive and high-performance websites using modern technologies, 
                 ensuring seamless functionality across all devices.
             </p>
-            <button className='bg-purple-500 inline-block px-5 py-2 text-white rounded-full font-medium text-sm mt-4 hover:bg-purple-600 transition-all duration-300 md:text-3xl'>Read More</button>
+            <button className='bg-purple-500 inline-block px-5 py-2 text-white rounded-full font-medium text-smi  mt-4 hover:bg-purple-600 transition-all duration-300 md:text-3xl'>Read More</button>
+            <div>
+            <p>
+                I build responsive and high performance websites using modern technologies, ensuring seamless functionality across all devices.My focus is on creating
+                scalable, effecient, and user-friendly web applications that not only look great but also perform exceptionally well. I pay close attention to code quality
+                , performance optimization, and best practices to deliver reliable and future-proof solutions.
+            </p>
+            <li>
+                <ul>Custom Website Design and development</ul>
+                <ul>Responsive layouts for mobile, tablet and desktop</ul>
+                <ul>Performance optimization for fast loading speed</ul>
+                <ul>Integration with APIs</ul>
+                <ul>Modern frameworks like react</ul>
+            </li>
+            </div>
             </div>
         </div>
 
