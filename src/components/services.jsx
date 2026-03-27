@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faWhatsapp, faFacebook, faTiktok} from "@fortawesome/free-brands-svg-icons";
 import { faCode, faLayerGroup, faTools } from '@fortawesome/free-solid-svg-icons';
@@ -7,6 +7,14 @@ function Services(props) {
     const[Show, setShow] = useState(false);
     const[message, setMessage] = useState(false);
     const[see, setSee] = useState(false);
+    useEffect(() => {
+        if(message){
+            document.body.style.overflow = "hidden";
+        }
+        return () => {
+            document.body.style.overflow = "auto";
+        }
+    }, [message]);
   return (
     <section id="services" className='scroll-mt-26'>
     <div className='bg-gray-50 z-0'>
@@ -27,24 +35,24 @@ function Services(props) {
            
         </div>
         { message && (
-            <div className='fixed inset-0 flex justify-center items-center bg-gray-400/50 backdrop-blur-md z-10000'>
-                <div className='bg-white/80 rounded-lg p-5 w-[400px] max-w-[100%]'>
+            <div className='fixed inset-0 flex justify-center items-center bg-gray-400/50 backdrop-blur-md z-10000' onClick={() => setMessage(!message)}>
+                <div className='bg-white/80 rounded-lg p-5 sm:p-8 w-[400px] sm:w-[650px] max-w-[100%] text-md md:text-lg' onClick={(e) => e.stopPropagation()}>
                 <div>
                     <div>
-                        <button onClick={() => setMessage(!message)}>X</button>
+                        <button onClick={() => setMessage(!message)} className='pl-[90%] pb-5 cursor-pointer text-xl'>X</button>
                         <p>
                             I build responsive and high performance websites using modern technologies, ensuring seamless functionality across all devices.My focus is on creating
                             scalable, effecient, and user-friendly web applications that not only look great but also perform exceptionally well. I pay close attention to code quality
                             , performance optimization, and best practices to deliver reliable and future-proof solutions.
                         </p>
                     </div>
-                    <div>
-                        <li>
-                            <ul>Custom Website Design and development</ul>
-                            <ul>Responsive layouts for mobile, tablet and desktop</ul>
-                            <ul>Performance optimization for fast loading speed</ul>
-                            <ul>Integration with APIs</ul>
-                            <ul>Modern frameworks like react</ul>
+                    <div className='pl-6'>
+                        <li className='list-none'>
+                            <ul>•Custom Website Design and development</ul>
+                            <ul>•Responsive layouts for mobile, tablet and desktop</ul>
+                            <ul>•Performance optimization for fast loading speed</ul>
+                            <ul>•Integration with APIs</ul>
+                            <ul>•Modern frameworks like react</ul>
                         </li>
                     </div>
                 </div>
