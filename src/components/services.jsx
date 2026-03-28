@@ -39,7 +39,7 @@ function Services(props) {
                 <div className='bg-white/80 rounded-lg p-5 sm:p-8 w-[400px] sm:w-[650px] max-w-[100%] text-md md:text-lg' onClick={(e) => e.stopPropagation()}>
                 <div>
                     <div>
-                        <button onClick={() => setMessage(!message)} className='pl-[90%] pb-5 cursor-pointer text-xl'>X</button>
+                        <button onClick={() => setMessage(!message)} className='pl-[90%] pb-5 cursor-pointer text-xl font-semibold'>X</button>
                         <p>
                             I build responsive and high performance websites using modern technologies, ensuring seamless functionality across all devices.My focus is on creating
                             scalable, effecient, and user-friendly web applications that not only look great but also perform exceptionally well. I pay close attention to code quality
