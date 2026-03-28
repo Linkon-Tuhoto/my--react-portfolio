@@ -9,7 +9,7 @@ function Hero() {
     <section id="home" className='scroll-mt-26'>
     <div className='grid grid-cols-1 md:flex md:justify-center md:items-center scroll-smooth pt-[10%] md:pt-[3%] '>
     <div className='text-center p-8 md:p-16 leading-relaxed'>
-        <h3 className="text-[#9CA3AF] text-lg md:text-xl font-medium leading-relaxed ">Hello 👋,</h3>
+        <h3 className="text-[#9CA3AF] text-lg md:text-xl font-medium leading-relaxed pt-4">Hello 👋,</h3>
         <h1 className="text-[#7C3AED] text-4xl mt-2 md:text-6xl font-bold leading-tight">I'm Linkon Tuhoto</h1>
         <h3 className="text-[#6B7280] text-xl md:text-2xl font-semibold mt-1 mb-6 leading-snug">And I am a <span className='text-[ #7C3AED] font-semibold'>Frontend Developer</span></h3>
         <p className="text-gray-700 mt-4 text-base md:text-lg font-normal leading-relaxed mx-auto max-w-xl">I build responsive and user-friendly websites that bring ideas to life.  
