@@ -35,7 +35,7 @@ function Services(props) {
            
         </div>
         { message && (
-            <div className='fixed inset-0 flex justify-center items-center bg-gray-400/50 backdrop-blur-md z-10000' onClick={() => setMessage(!message)}>
+            <div className='fixed inset-0 flex justify-center items-center bg-purple-300/30 backdrop-blur-md z-10000' onClick={() => setMessage(!message)}>
                 <div className='bg-white/80 rounded-lg p-5 sm:p-8 w-[400px] sm:w-[650px] max-w-[100%] text-md md:text-lg' onClick={(e) => e.stopPropagation()}>
                 <div>
                     <div>
@@ -62,7 +62,7 @@ function Services(props) {
         </div>
             
         
-
+        <div>
         <div className='group md:relative border text-center p-10 border-gray-200 origin-bottom shadow-md hover:shadow-purple-200 hover:shadow-lg hover:scale-105 transition-all duration-300 bg-white/80 backdrop-blur-md z-0'>
             <FontAwesomeIcon icon={faLayerGroup} className='mb-4 text-purple-500 text-4xl md:text-9xl' />
             <h3 className='font-medium text-lg mb-2 md:text-4xl'>UI/UX Design</h3>
@@ -70,8 +70,35 @@ function Services(props) {
             <p className='text-gray-600 text-sm md:text-2xl'>
                 I design clean and user-friendly interfaces focused on delivering intuitive and engaging user experiences.
             </p>
-            <button className='bg-purple-500 inline-block px-5 py-2 text-white rounded-full font-medium text-sm mt-4 hover:bg-purple-600 transition-all duration-300 md:text-3xl'>Read More</button>
+            <button onClick={() => setMessage(!message)} className='bg-purple-500 inline-block px-5 py-2 text-white rounded-full font-medium text-sm mt-4 hover:bg-purple-600 transition-all duration-300 md:text-3xl'>Read More</button>
             </div>
+        </div>
+        { message && (
+            <div className='fixed inset-0 flex justify-center items-center bg-purple-300/30 backdrop-blur-md z-10000' onClick={() => setMessage(!message)}>
+                <div className='bg-white/80 rounded-lg p-5 sm:p-8 w-[400px] sm:w-[650px] max-w-[100%] text-md md:text-lg' onClick={(e) => e.stopPropagation()}>
+                <div>
+                    <div>
+                        <button onClick={() => setMessage(!message)} className='pl-[90%] pb-5 cursor-pointer text-xl font-semibold'>X</button>
+                        <p>
+                            I design clean and user-friendly interfaces focused on delivering intuitive and enganging user experiences. My design approach combines creativity
+                            with usability, ensuring that users can easily navigate and interact with your website or application. I prioritize simplicity, consistency, and accessibility
+                            to create designs that are both visually appealing and highly functional.
+                        </p>
+                    </div>
+                    <div className='pl-6'>
+                        <li className='list-none'>
+                            <ul>•User-centered design approach</ul>
+                            <ul>•Wireframing and prototpying</ul>
+                            <ul>•Modern and visually appealing UI layouts</ul>
+                            <ul>•Consistent color schemes and typography</ul>
+                            <ul>•Improved user journey and navigation</ul>
+                            <ul>•Mobile-first design strategy</ul>
+                        </li>
+                    </div>
+                </div>
+                </div>
+            </div>
+        )}
         </div>
 
         <div className='group md:relative border text-center p-10 border-gray-200 origin-bottom shadow-md hover:shadow-purple-200 hover:shadow-lg hover:scale-105 transition-all duration-300 bg-white/80 backdrop-blur-md'>
