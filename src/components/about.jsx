@@ -9,7 +9,7 @@ function About() {
             <img src={aboutimg} className='w-full h-full object-cover mx-auto rounded-2xl' alt="person" />
         </div>
         <div>
-            <h3 className='text-xl sm:text-2xl sm:text-3xl font-medium p-1.5 mb-4'>Frontend Developer</h3>
+            <h3 className='inline-block text-xl sm:text-2xl sm:text-3xl font-medium p-1.5 mb-4 border-b-2  border-purple-600'>Frontend Developer</h3>
             <p className='font-light leading-7 sm:leading-8 text-base sm:text-lg md:text-lg mb-6'>I am a passionate Frontend Developer with a strong interest in building modern, responsive, and user-friendly web applications. I enjoy transforming ideas into real digital experiences through clean and efficient code.
                With experience in technologies like React and Tailwind CSS, I focus on creating interfaces that are not only visually appealing but also functional and accessible. I pay close attention to detail, performance, and user experience to ensure high-quality results.
                I am continuously learning and improving my skills, always exploring new tools and trends in web development to stay up to date and deliver better solutions.</p>
