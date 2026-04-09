@@ -18,6 +18,7 @@ function Header(){
         window.addEventListener('scroll', handlescroll);
         return () => window.removeEventListener('scroll', handlescroll);
     }, []);
+
     return(
         <section>
         <div className="fixed w-full top-0 z-100 scroll-smooth">
@@ -42,6 +43,8 @@ function Header(){
 
         </div>
 
+        <div className="onClick={(e) => e.stopPropagation()}">
+
             {open && (
             <ul className="grid grid-flow-row justify-center gap-10 md:hidden bg-white/80 backdrop-blur-md shadow-lg absolute top-full w-8/12 right-0 rounded-l-2xl shadow p-10 pb-[100%] mb-0 font-bold  text-sm">
                     <li><a href="#home" className="text-gray-800 hover:text-purple-500 transition duration-300 " onClick={() => setopen(false)}>Home</a></li>
@@ -50,6 +53,7 @@ function Header(){
                     <li><a href="#project" className="text-gray-800 hover:text-purple-500" onClick={() => setopen(false)}>Projects</a></li>
                     <li><a href="#contact" className="text-gray-800 hover:text-purple-500" onClick={() => setopen(false)}>Contact</a></li>
                 </ul>)}
+        </div>
         </div>
         </section>
         
